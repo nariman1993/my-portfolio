@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="jQuery/jquery-3.5.1.min.js"></script>
 </head>
     
 
@@ -47,11 +49,12 @@
             </div>
         </section>   
 
+        <button id = "dark-btn">DARK: ON</button>
+        
         <section class = "sections default-bg">
             <div class = "container">
 
                 <h1 class = "section-header" id = "me">Обо мне</h1>
-
                 <div class = "about-me" data-aos="zoom-in" data-aos-delay="300" data-aos-once="true">
                     <div class = "about-img">
 						<img src="img/me.gif" alt="">
@@ -172,25 +175,32 @@
         <section class = "sections extra-bg" id = "port" data-aos="zoom-in" data-aos-delay="400" data-aos-once="true">
             <div class = "container">
                 <h1 class = "section-header">Портфолио работ</h1>
+
+                <div class="category">
+                    <button id = "all"> All </button>
+                    <button id = "front"> HTML5, CSS3 </button>
+                    <button id = "back"> PHP, MySQL </button>
+                </div>
+
                 <div class = "portfolio">
-                    <div class = "works">
+                    <div class = "works front">
                         <a href="https://nariman1993.github.io/best-tools/" target="_blank"><img src="img/website-1.png" alt=""></a>
                     </div>
-                    <div class = "works">
+                    <div class = "works front">
                         <a href="https://nariman1993.github.io/english_with_nariman/" target="_blank"><img src="img/website-2.png" alt=""></a>
                     </div>
-                    <div class = "works">
+                    <div class = "works back">
                         <a href="http://oass.epizy.com/" target="_blank"><img src="img/website-3.png" alt=""></a>
                     </div>
-                    <div class = "works">
+                    <div class = "works front">
                         <a href="https://nariman1993.github.io/code_with_nariman/" target="_blank"><img src="img/website-4.png" alt=""></a>
                     </div>
-					<div class = "works">
+					<div class = "works front">
                         <a href="https://nariman1993.github.io/field.kz/" target="_blank"><img src="img/website-5.png" alt=""></a>
                     </div>
-                    <div class = "works">
+                    <!-- <div class = "works front">
                         <a href="in-progress.html" target="_blank"><img src="img/website-6.png" alt=""></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -226,6 +236,7 @@
         </div>
     </footer>
 
+    <script src="js/main.js"></script>
     <script src="js/aos.js"></script>
     <script>AOS.init();</script>
 	
