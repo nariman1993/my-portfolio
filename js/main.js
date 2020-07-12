@@ -29,9 +29,16 @@ $('#all').click(function(){
 $('#front').click(function(){
     $('.front').slideDown(500);
     $('.back').slideUp(500);
+    $('.example').slideUp(500);
 });
 
 $('#back').click(function(){;
     $('.back').slideDown(500);
-    $('.front').slideUp(500)
+    $('.front').slideUp(500);
+    $('.example').slideUp(500);
+});
+$('#example').click(function(){;
+    $('.example').slideDown(500);
+    $('.back').slideUp(500);
+    $('.front').slideUp(500);
 });
