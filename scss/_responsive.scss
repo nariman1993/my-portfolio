@@ -1,0 +1,239 @@
+/* --------------- For Tiny Screens LOL --------------- */
+@media (max-width: 310px){
+	*{
+		overflow-x: hidden;
+	}
+}
+
+
+
+
+/* --------------- Mobile View --------------- */
+@media (max-width: 699px){
+    body{
+        background-color: rgb(224, 79, 79);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    /* --- HERO --- */
+    .wrap-hero{
+        width: 100%;
+        flex-direction: column;
+
+        .me{
+            width: 100%;
+
+            img{
+                position: relative;
+                width: 50%;
+            }
+        }
+    
+        .text{
+            // border: 1px solid #000;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* --- ABOUT --- */
+    .about{
+        .text{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        .other-info{
+            flex-direction: column;
+
+            .box{
+
+                .lists{
+
+                    .list__item{
+                        width: 70%;
+                    }
+
+                    .lang{
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+
+    /* --- SKILLS --- */
+    .wrap--boxes{
+        .box{
+            .lists{
+                .list__item{
+
+                    width: 40%;
+
+                }
+            }
+        }
+    }
+
+    /* --- PORTFOLIO --- */
+    .works{
+        width: 80%;
+        margin: 15px auto;
+    }
+    
+
+    /* --- CONTACTS --- */
+    .contacts{
+        flex-direction: column;
+        justify-content: center;
+
+        .cont-details{
+
+            span{
+                font-size: 22px;
+            }
+    
+            u{
+                font-size: 22px;
+            }
+        }
+
+        .icon-1::before{
+            width: 25px;
+            height: 25px;
+            top: 0; 
+        }
+        .icon-2::before{
+            width: 25px;
+            height: 25px;
+            top: 0; 
+        }
+        .icon-3::before{
+            width: 25px;
+            height: 25px;
+            top: 0; 
+        }
+    }
+}
+
+
+
+
+
+
+
+/* --------------- Tablet View --------------- */
+@media (min-width: 700px) and (max-width: 1024px) {
+    body{
+        background-color: rgb(78, 78, 240);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    /* --- HERO --- */
+    .wrap-hero{
+        width: 100%;
+        flex-direction: column;
+
+        .me{
+            width: 100%;
+
+            img{
+                position: relative;
+                width: 30%;
+            }
+        }
+    
+        .text{
+            // border: 1px solid #000;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* --- ABOUT --- */
+    .about{
+        .text{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        .other-info{
+            flex-direction: column;
+
+            .box{
+
+                .lists{
+
+                    .list__item{
+                        width: 50%;
+                    }
+
+                    .lang{
+                        width: 10%;
+                    }
+                }
+            }
+        }
+    }
+
+    /* --- SKILLS --- */
+    .wrap--boxes{
+        .box{
+            .lists{
+                .list__item{
+
+                    width: 20%;
+
+                }
+            }
+        }
+    }
+
+    /* --- PORTFOLIO --- */
+    .works{
+        width: 45%;
+        margin: 15px auto;
+    }
+    
+
+    /* --- CONTACTS --- */
+    .contacts{
+        flex-direction: column;
+        justify-content: center;
+
+        .cont-details{
+
+            span{
+                font-size: 22px;
+            }
+    
+            u{
+                font-size: 22px;
+            }
+        }
+
+        .icon-1::before{
+            width: 25px;
+            height: 25px;
+            top: 0; 
+        }
+        .icon-2::before{
+            width: 25px;
+            height: 25px;
+            top: 0; 
+        }
+        .icon-3::before{
+            width: 25px;
+            height: 25px;
+            top: 0; 
+        }
+    }
+}
