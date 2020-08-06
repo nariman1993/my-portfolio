@@ -1,4 +1,4 @@
-/* --------------- For Tiny Screens LOL --------------- */
+/* --------------- For Tiny Screens --------------- */
 @media (max-width: 310px){
 	*{
 		overflow-x: hidden;
@@ -10,10 +10,6 @@
 
 /* --------------- Mobile View --------------- */
 @media (max-width: 699px){
-    body{
-        background-color: rgb(224, 79, 79);
-    }
-
     h1{
         font-size: 2rem;
     }
@@ -128,10 +124,6 @@
 
 /* --------------- Tablet View --------------- */
 @media (min-width: 700px) and (max-width: 1024px) {
-    body{
-        background-color: rgb(78, 78, 240);
-    }
-
     h1{
         font-size: 2rem;
     }
