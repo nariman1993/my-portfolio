@@ -497,7 +497,7 @@ footer p {
   padding: 20px 0;
 }
 
-/* --------------- For Tiny Screens LOL --------------- */
+/* --------------- For Tiny Screens --------------- */
 @media (max-width: 310px) {
   * {
     overflow-x: hidden;
@@ -506,9 +506,6 @@ footer p {
 
 /* --------------- Mobile View --------------- */
 @media (max-width: 699px) {
-  body {
-    background-color: #e04f4f;
-  }
   h1 {
     font-size: 2rem;
   }
@@ -594,9 +591,6 @@ footer p {
 
 /* --------------- Tablet View --------------- */
 @media (min-width: 700px) and (max-width: 1024px) {
-  body {
-    background-color: #4e4ef0;
-  }
   h1 {
     font-size: 2rem;
   }
